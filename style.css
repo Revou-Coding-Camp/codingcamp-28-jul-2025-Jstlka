@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #2E5E4E; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+body {
+    font-size: 20px;
+}
+
+.semibold {
+font-weight: 600;
+}
+
+.hero1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background-color: #fff;
+  justify-content: left;
+}
+
+.hero-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  margin-left: -100px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: #444;
+  max-width: 400px;
+  margin-left: -100px;
+}
+
+.hero-text .green {
+  color: #2E5E4E;
+}
+
+.hero-text .yellow {
+  color: #FFB802;
+}
+
+.hero-image img {
+  max-width: 900px;
+  height: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 100px; 
+  align-items: center;
+}
+
+.nav-links p {
+  margin: 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+    .highlight-bar {
+  background-color: #2E5E4E; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px; 
+  padding: 20px 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin-top: -50px;
+}
+
+.hero-section {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 50px 20px;
+  background-color: #fff;
+  color: #2E5E4E; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-section .highlight-word {
+  color: #FFB802; 
+}
+
+.hero-section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #555;
+}
+
+.class-section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.class-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.class-title .green {
+  color: #2E5E4E;
+}
+
+.class-title .yellow {
+  color: #FFDB80;
+}
+
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 50px;
+  justify-items: center;
+  margin-top: -200px;
+}
+
+
+.class-card {
+  border-radius: 40px;
+  padding: 40px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.class-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.class-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+.yellow-bg {
+  background-color: #FFDB80;
+}
+
+.green-bg {
+  background-color: #2E5E4E;
+  color: white;
+}
+
+.green-bg p {
+  color: #e6e6e6;
+}
+
+.hero {
+  background-color: #FCD34D; 
+  padding: 60px 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  gap: 100px;
+  max-width: 1200px;
+}
+
+.hero-image {
+  width: 700px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.yellow {
+  color: #fff; 
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.bold {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.green {
+  color: #2E5E4E; 
+}
+
+.hero-text p {
+  max-width: 700px;
+  font-size: 20px;
+  color: #333;
+}
+
+.skills {
+  text-align: center;
+  padding: 80px 30px; 
+}
+
+.skills h2 {
+  font-size: 42px; 
+  margin-bottom: 60px;
+}
+
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 150px; 
+  justify-content: center;
+}
+
+.card {
+  width: 360px; 
+  border-radius: 24px;
+  padding: 32px;
+  text-align: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+
+.card h3 {
+  font-size: 26px; 
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 16px; 
+  line-height: 1.75;
+}
+
+.card-green {
+  background-color: #2E5E4E; 
+  color: white;
+}
+
+.card-yellow {
+  background-color: #FCD34D;
+  color: #1e293b;
+}
+
+.line {
+  width: 200px;
+  height: 3px;
+  background-color: white;
+  margin: 10px 0 16px 0;
+}
+
+.liner {
+  width: 250px;
+  height: 3px;
+  background-color: #1e293b;
+  margin: 10px 0 16px 0;
+}
+
+.contact .container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.robot {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.form-box {
+  background-color: #5f8772;
+  border-radius: 12px;
+  padding: 30px;
+  width: 900px;
+  color: white;
+  margin-left: 100px;   
+  margin-top: 250px;
+}
+
+.form-box h1 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+.form-box h1 span {
+  color: #ffd700;
+}
+
+.form-box input[type="text"],
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #fcd772;
+}
+
+.gender-group {
+  margin-bottom: 12px;
+}
+
+.gender-group input {
+  margin-right: 6px;
+}
+
+.form-box button {
+  background-color: #1f3d31;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#resultList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+
+.result-box {
+  margin-top: 0; 
+}
+
+.submitted-result p {
+  margin: 8px 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column; /* Ini bikin vertikal */
+  align-items: flex-start;
+}

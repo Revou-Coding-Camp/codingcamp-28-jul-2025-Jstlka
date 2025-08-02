@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelas Kita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Kelas Kita Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Profile</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero1">
+  <div class="hero-text">
+    <h1>
+      Hi <span class="green">Shohib</span>,<br>
+      Welcome to the <span class="yellow">Website</span>
+    </h1>
+    <p>Learn as you wish, the future is not a demand, but happiness.</p>
+  </div>
+  <div class="hero-image">
+    <img src="images/robot1.png" alt="Robot Welcome">
+  </div>
+</section>
+
+<section class="highlight-bar">
+  <span>Software</span>
+  <span>Website</span>
+  <span>Design</span>
+  <span>Cloud</span>
+  <span>Cyber</span>
+  <span>UI/UX Design</span>
+</section>
+
+<section class="hero-section">
+  <h1>
+    Find Your <span class="highlight-word">Class</span>
+  </h1>
+</section>
+
+<section class="class-section">
+    <h1>
+    Find Your <span class="highlight-word">Class</span>
+  </h1>
+  <h2 class="class-title"> <span class="green"></span> <span class="yellow"></span></h2>
+  <div class="class-grid">
+    <div class="class-card yellow-bg">
+      <img src="images/soft.png" alt="Software Development" />
+      <h3>Software Development</h3>
+      <p>You can become a skilled software developer.</p>
+    </div>
+    <div class="class-card green-bg">
+      <img src="images/web.png" alt="Website Development" />
+      <h3>Website Development</h3>
+      <p>You can become a skilled website developer.</p>
+    </div>
+    <div class="class-card yellow-bg">
+      <img src="images/design.png" alt="Graphic Design" />
+      <h3>Graphic Design</h3>
+      <p>You can become a skilled graphic designer.</p>
+    </div>
+    <div class="class-card green-bg">
+      <img src="images/cloud.png" alt="Cloud Computing" />
+      <h3>Cloud Computing</h3>
+      <p>You can become a skilled cloud engineer.</p>
+    </div>
+    <div class="class-card yellow-bg">
+      <img src="images/cyber.png" alt="Cyber Security" />
+      <h3>Cyber Security</h3>
+      <p>You can become a skilled security architect.</p>
+    </div>
+    <div class="class-card green-bg">
+      <img src="images/uiux.png" alt="UI/UX Design" />
+      <h3>UI/UX Design</h3>
+      <p>You can become a skilled UI/UX designer.</p>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="hero-content">
+    <img src="images/foto.png" alt="Shohib Photo" />
+  </div>
+  <div class="hero-image">
+    <h2><span class="yellow">Hello.</span> <br> <span class="bold">I Am <span class="green">Shohib!</span></span></h2>
+    <p>
+      I am a student at a vocational school who is interested in programming.
+      Although I was initially only interested in UI/UX design, I decided to learn more so that what I have
+      been designing can become a reality in the form of an application or website that can be useful to many people.
+    </p>
+  </div>
+</section>
+
+<section class="skills">
+  <h2>What Can I Do?</h2>
+  <div class="skill-cards">
+    
+    <div class="card card-green">
+      <h3>UI/UX Design</h3>
+      <div class="line"></div>
+      <p>I often create UI/UX designs, and I enjoy doing so. Most recently, I created a design for a mental health app, and I am proud of it.</p>
+      <img src="images/mental.png" alt="UI/UX Design">
+    </div>
+
+    <div class="card card-yellow">
+  <img src="images/menggambar.png" alt="Digital Drawing">
+  <h3>Digital Drawing</h3>
+  <div class="liner"></div>
+  <p>In addition to UI/UX design, I also enjoy digital drawing. I usually trace photos of people and convert them into vectors.</p>
+</div>
+
+    <div class="card card-green">
+      <h3>Be the Winner</h3>
+      <div class="line"></div>
+      <p>Hahahaha, sorry for bragging, but this is one of the things I’m proud of. I won a national UI/UX competition.</p>
+      <img src="images/menang.png" alt="Winner">
+    </div>
+
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <img src="images/robot2.png" class="robot" alt="robot mascot" />
+    
+   <section class="contact">
+  <div class="form-container">
+    
+    <div class="form-box">
+      <h1>Message <span>Us</span></h1>
+      <form id="messageForm">
+        <label>Name:</label>
+        <input type="text" id="name" required />
+
+        <label>Gender:</label>
+        <div class="gender-group">
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label>
+        </div>
+
+        <label>Message:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="resultList"></div>
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
